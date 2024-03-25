@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the train data
-train_data = pd.read_excel('./Dataset - Copy/first.train.xlsx')
+train_data = pd.read_excel('/workspaces/RSS/Dataset - Copy/first.test.xlsx')
 
 # This will fill missing values with the mean of the column
 train_data = train_data.fillna(train_data.mean())
@@ -12,31 +12,31 @@ train_data = train_data.drop_duplicates()
 
 # List of all test data files
 test_data_files = [
-    './Dataset - Copy/first.test.xlsx',
-    './Dataset - Copy/test.second.xlsx',
-    './Dataset - Copy/third.test.xlsx',
-    './Dataset - Copy/test.fourth.xlsx',
-    './Dataset - Copy/test.fifth.xlsx',
-    './Dataset - Copy/test.sixth.xlsx',
-    './Dataset - Copy/test.seventh..xlsx',
-    './Dataset - Copy/test.eight.xlsx',
-    './Dataset - Copy/test.nine.xlsx',
-    './Dataset - Copy/test.tenth.xlsx',
-    './Dataset - Copy/test.eleventh.xlsx',
-    './Dataset - Copy/test.tewelth.xlsx',
-    './Dataset - Copy/test.thirteen.xlsx',
-    './Dataset - Copy/test.fourteen.xlsx',
-    './Dataset - Copy/test.fifteen.xlsx',
-    './Dataset - Copy/test.sixteen.xlsx',
-    './Dataset - Copy/test.seventeen.xlsx',
-    './Dataset - Copy/test.eighteen.xlsx',
-    './Dataset - Copy/test.nineteen.xlsx',
-    './Dataset - Copy/test.twenty.xlsx',
-    './Dataset - Copy/test.twentyone.xlsx',
-    './Dataset - Copy/test.twentytwo.xlsx',
-    './Dataset - Copy/test.twentythree.xlsx',
-    './Dataset - Copy/test.twentyfour.xlsx',
-    './Dataset - Copy/test.twentyfive.xlsx'
+    '/workspaces/RSS/Dataset - Copy/first.test.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.second.xlsx',
+    '/workspaces/RSS/Dataset - Copy/third.test.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.fourth.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.fifth.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.sixth.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.seventh..xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.eight.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.nine.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.tenth.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.eleventh.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.tewelth.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.thirteen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.fourteen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.fifteen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.sixteen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.seventeen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.eighteen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.nineteen.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.twenty.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.twentyone.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.twentytwo.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.twentythree.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.twentyfour.xlsx',
+    '/workspaces/RSS/Dataset - Copy/test.twentyfive.xlsx'
 ]
 
 # Load and preprocess all test datasets
